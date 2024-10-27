@@ -1,0 +1,555 @@
+
+
+
+
+
+
+.trip-summary {
+  padding: 40px;
+  background-color: #f8f9fa; /* Light background for the section */
+  text-align: center; /* Center text in the section */
+}
+
+table {
+  width: 100%; /* Full width of the parent container */
+  border-collapse: collapse; /* Remove space between borders */
+  margin: 20px 0; /* Margin above and below the table */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Border for table cells */
+  padding: 15px; /* Padding inside cells */
+  text-align: left; /* Left align text in cells */
+}
+
+th {
+  background-color: #007BFF; /* Header background color */
+  color: white; /* Header text color */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+tr:hover {
+  background-color: #e9ecef; /* Highlight row on hover */
+}
+
+
+
+
+.trips-section {
+  padding: 40px;
+  background-color: #e9ecef; /* Light background for contrast */
+  text-align: center; /* Center text in the section */
+}
+
+.trip {
+  margin: 20px 0; /* Space between trip details */
+  border: 1px solid #ccc; /* Border around each trip */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside each trip */
+  background-color: white; /* White background for each trip */
+}
+
+.trip-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+h3 {
+  color: #007BFF; /* Heading color */
+  margin: 10px 0; /* Space above and below the heading */
+}
+
+p {
+  font-size: 1.1em; /* Slightly larger font for descriptions */
+  color: #333; /* Darker text for readability */
+}
+
+
+
+
+.cta-section {
+  text-align: center;
+  align-items: center; /* Center the text */
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 8px; /* Rounded corners */ /* Rounded corners */
+}
+
+.cta-section h2 {
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.cta-section p {
+  font-size: 1.2em; /* Font size for the paragraph */
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.cta-button {
+  display: inline-block; /* Make it look like a button */
+  padding: 10px 20px; /* Button padding */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners for the button */
+  font-size: 1em; /* Fon
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+
+header {
+  background-color: #003cff; /* Header background color */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+nav {
+  display: inline; /* Horizontal layout */
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333; /* Footer background color */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px; /* Space above footer */
+}
+
+footer {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  display: inline; /* Horizontal layout */
+  margin: 0 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.about {
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light gray background for contrast */
+  text-align: center; /* Center align text */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between grid items */
+  max-width: 1200px; /* Limit the width */
+  margin: 0 auto; /* Center the grid */
+}
+
+.grid-item {
+  background: white; /* White background for each item */
+  border: 1px solid #ccc; /* Light border for definition */
+  border-radius: 8px; /* Rounded corners for softer edges */
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.grid-item:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.grid-item img {
+  width: 100%; /* Make images responsive */
+  border-radius: 4px; /* Slight rounding for images */
+}
+
+.grid-item h3 {
+  margin: 15px 0 10px; /* Margin for spacing */
+  color: #007BFF; /* Highlighted color for headings */
+}
+
+.grid-item p {
+  color: #555; /* Dark gray for description */
+  line-height: 1.5; /* Improved readability */
+}
+
+
+.about {
+  padding: 40px 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  text-align: center; /* Center align text */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Space between grid items */
+  max-width: 1200px; /* Limit the width */
+  margin: 0 auto; /* Center the grid */
+}
+
+.grid-item {
+  background: white; /* White background for each item */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+}
+
+.grid-item img {
+  width: 100%; /* Make images responsive */
+  border-radius: 4px; /* Slight rounding for images */
+}
+
+.grid-item h3 {
+  margin: 15px 0 10px; /* Margin for spacing */
+  color: #333; /* Dark text color */
+}
+
+.grid-item p {
+  color: #666; /* Medium gray for description */
+}
+
+.cta {
+  text-align: center;
+  align-items: center; /* Center the text */
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.cta h2 {
+  font-size: 2em; /* Large heading */
+  color: #333; /* Dark text color */
+}
+
+.cta p {
+  font-size: 1.2em; /* Slightly larger text */
+  color: #666; /* Medium gray for the description */
+}
+
+.cta-button {
+  display: inline-block; /* Make it look like a button */
+  padding: 10px 20px; /* Button padding */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners for the button */
+  font-size: 1em; /* Font size */
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.newsletter-signup {
+  width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid; 
+}
+
+.newsletter-signup label {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.newsletter-signup input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Rounded edges for inputs */
+}
+
+.newsletter-signup button {
+  padding: 10px;
+  background-color: #007BFF; /* Button color */
+  color: white;
+  border: none;
+  
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.newsletter-signup button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+.hero-heading {
+  position: absolute; /* Position over the image */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: white; /* Text color */
+  font-size: 3em; /* Adjust as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+}
+
+/* Original styles */
+body {
+  background-color: #f0f0f0; /* Light background */
+  color: #a0a0a0; /* Light text */
+}
+
+/* Adjusted styles for better contrast */
+body {
+  background-color: #f0f0f0; /* Light background */
+  color: #333333; /* Darker text for better contrast */
+}
+
+.full-width-image {
+  width: 100%;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+* {
+  box-sizing: grid;
+  text-align: center;
+  justify-content: space-around;
+  padding: 1px;
+  text-decoration: none;
+  margin-top: 1px;
+  background-image: url("Rafting-en-France.jpg")
+}
+
+div{
+  background-size: contain
+}
+
+div{
+  width: 1000px;
+ 
+  border: 1px solid #333333;
+  margin: 10px auto;
+  background-color : #506c0e6c;
+}
+
+div.img{
+  box-sizing: grid;
+  text-align: center;
+  display: flex;
+  margin: 20px;
+  box-sizing: grid;
+  background-color : #0e2f6c6c;
+}
+
+body {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 1.2em;
+  color: #3333334e;
+  background: #ffffff57;
+  background-color:None ;
+  
+  
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif; }
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #dddddd58;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+div.history {
+  margin: 10px auto;
+  width: 20em;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.5em;
+  color: navy;
+  text-align: center;
+}
+
+form {
+  width: 60px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eeeeee;
+  display: grid;
+}
+
+
+label {
+  text-align: left;
+  padding-right: 1rem;
+  display: inline-block;
+  width: 90px;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+#feedback {
+    background-color: rgb(215, 250, 228);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 1000px;
+  text-align: center;
+  font-size: 0.8em;
+  border-top: 5px solid #ccc;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 1fr 4fr;
+  margin: 0.5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 4fr;
+}
+
+nav {
+  display: left;
+  text-align: left;
+  padding: 10px;
+  color: #0D1B2A;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+header{
+  background-color:#0e6c6100 ;
+  background-color:none;
+  display: left;
+  grid-template-columns: 10px auto;
+  text-align: center;
+}
+
+nav a:hover{
+  background-color: #0D1B2A;
+  color: azure;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#content{
+  max-width: 0;
+  margin: 0 auto;
+  
+}
+
+
+main section{
+  display: grid;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  margin-top: 10px;
+  justify-content: space-around;
+  background-color:none;
+}
+
+nav a:hover{
+  background-color: #0D1B2A;
+  color: azure;
+  justify-content: space-around;
+}
+
+
+footer{
+  background-color:#0e676c63 ;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 100px;
+  
+}
+

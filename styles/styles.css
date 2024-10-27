@@ -1,0 +1,123 @@
+
+
+
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif; }
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #dddddd58;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --heading-background-color: rgba(0, 162, 255, 0.228);
+  --heading-text-color: #333;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --padding: 1rem;
+  --border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Some example variable use in declarations. */
+
+h1 {
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
+  font-weight: 100;
+}
+
+aside {
+  margin: 10px auto;
+  padding: var(--padding);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 20em;
+  text-align: center;
+}
+
+main {
+  max-width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+     
+}
+
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  float: right;
+}
+
+aside {
+  width: 30rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+
+p { padding: 0;}
+
+
+
+nav {
+    background-color: rgb(70, 121, 180);
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    display: block;
+    padding: 10px;
+  }
+
+  h1 {
+    color: steelblue;
+    font-weight: 100;
+  }
+
+  img {
+    width: 30px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  footer{
+    background-color:#0e2a6c ;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+  
